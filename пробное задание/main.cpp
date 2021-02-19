@@ -41,4 +41,7 @@ int main()
             }
         }
     }
+   delete []mas;
+   fin.close();
+   fout.close();
 }
