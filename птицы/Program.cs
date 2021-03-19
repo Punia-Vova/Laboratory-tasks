@@ -10,10 +10,10 @@ namespace птицы
             Duck b = new Duck();
             Penguin c = new Penguin();
             Budgerigar d = new Budgerigar();
-            a.move();
-            b.move();
-            c.move();
-            d.move();
+
+            b.Flaing();
+            a.Flaing();
+
         }
     }
 }

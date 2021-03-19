@@ -2,49 +2,69 @@
 
 namespace птицы
 {
-    interface Ibird
+    interface Ifluing
     {
-       string Fluing();
-       string Swim();
-        
+        void Flaing();
     }
-    abstract class Birds:Ibird
+    interface Iswin
     {
-        public string Fluing()
-        {
-            return ("Птица летит");
-        }
-        public string Swim()
-        {
-           return ("Птица плывет");
-        }
+        void Swim();
     }
-    class Kivi :Birds
+    abstract class Ibird:Ifluing,Iswin
     {
-       public void move()
-        {
-            Console.WriteLine("Птица класса киви умеет:" + Swim());
-        }
-    }
-    class Duck:Birds
-    {
+        private string flai = "Птица летит";
+        private string swi = "Птица плывет";
+        protected bool swim;
+        protected bool flain;
+        protected string name;
         public void move()
         {
-            Console.WriteLine("Птица класса утка умеет:" + Swim() + " " + Fluing());
+            Console.WriteLine(name+"::"+flai + ":"+ flain + ", " +swi + ":" + swim);
+        }
+        public void Swim()
+        {
+            Console.WriteLine(name+"::"+swi + ":" + swim);
+        }
+        public void Flaing()
+        {
+            Console.WriteLine(name+"::"+flai + ":" + flain);
         }
     }
-    class Penguin : Birds
+
+    class Kivi:Ibird
     {
-        public void move()
+        public Kivi()
         {
-            Console.WriteLine("Птица класса пенгвин умеет:" + Swim());
+            name = "Киви";
+            swim = false;
+            flain = false;
         }
     }
-    class Budgerigar : Birds
+    class Duck:Ibird
     {
-        public void move()
+        public Duck()
         {
-            Console.WriteLine("Птица класса волнистый попугай умеет:" + Swim());
+            name = "Утка";
+            swim = true;
+            flain = true;
+        }
+    }
+    class Penguin :Ibird
+    {
+        public Penguin()
+        {
+            name = "Пенгвин";
+            swim = true;
+            flain = false;
+        }
+    }
+    class Budgerigar :Ibird
+    {
+        public Budgerigar()
+        {
+            name = "Попугай";
+            swim = false;
+            flain = false;
         }
     }
 }
