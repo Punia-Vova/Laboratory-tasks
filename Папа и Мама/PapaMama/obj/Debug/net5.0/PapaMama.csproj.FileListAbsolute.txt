@@ -1,0 +1,15 @@
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/PapaMama.deps.json
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/PapaMama.runtimeconfig.json
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/PapaMama.runtimeconfig.dev.json
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/PapaMama.dll
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/ref/PapaMama.dll
+/Users/vladimir/Projects/PapaMama/PapaMama/bin/Debug/net5.0/PapaMama.pdb
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.csprojAssemblyReference.cache
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.AssemblyInfoInputs.cache
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.AssemblyInfo.cs
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.csproj.CoreCompileInputs.cache
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.dll
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/ref/PapaMama.dll
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.pdb
+/Users/vladimir/Projects/PapaMama/PapaMama/obj/Debug/net5.0/PapaMama.genruntimeconfig.cache
